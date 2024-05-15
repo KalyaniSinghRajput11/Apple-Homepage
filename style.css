@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+#nav{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    color: white;
+    background-color: black;
+   gap: 40px;
+   justify-content: center;
+   align-items: center;
+}
+#nav #nt{
+    font-size: 14px;
+    font-weight: 10;
+}
+.ni{
+    height: 35px;
+    width: 35px;
+}
+/* #c1{
+    height: 800px;
+    width: 100%;
+    background-image: url(https://media.idownloadblog.com/wp-content/uploads/2023/09/iPhone-15-pro-titanium.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+#c1 h1{
+    
+    font-size: 64px;
+    color: whitesmoke;
+}
+#c1 h3{
+   display: flex;
+   justify-content: center;
+    font-size: 32px;
+    color: whitesmoke;
+}
+#c1 button{
+  
+    color: blue;
+}
+#c1 button:hover{
+    color: whitesmoke;
+} */
+
+#main1{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(34, 34, 59);
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    }
+#main1 a{
+text-decoration: none;
+color: rgb(210, 106, 68);
+    }
+#main1 a:hover{
+        text-decoration: underline;
+    }
+
+#main2{
+    text-align: center;
+    height: 26%;
+    width: 100%;
+  padding: 30px;
+}    
+#main2 h3{
+    font-size: 32px;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+#main2 h1{
+    font-size: 54px;
+    padding: 4px;
+    letter-spacing: 3px;
+    font-weight: 750;
+}
+#main3{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://www.apple.com/v/macbook-pro/ai/images/overview/welcome/welcome_hero_endframe__66ipqm3o5gyu_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#main4{
+    height: 10%;
+    width: 100%;
+}
+#main4 button{
+    margin: 15px 47%;
+  padding: 15px 30px;
+  font-size: 22px;
+  font-weight: 750;
+  background-color: rgb(65, 122, 245);
+  border: none;
+  border-radius: 50px;
+  color: aliceblue;
+}
+#main4 button:hover{
+    cursor: pointer;
+}
+#main5{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#main5 h1{
+    color: #fff;
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+}
+#main6 {
+   
+    text-align: justify;
+    padding: 30px 500px;
+    font-size: 24px;
+    font-weight: 400;
+    animation-name: up;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    transition: all ease ;
+}
+@keyframes up {
+    from{
+        top: 100%;
+        color: black;
+    }
+    to{
+        top: 0%;
+        color: gray;
+    }
+    
+}
+
+#main5 table{
+    padding-left: 20%;
+    width: 60%;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+td{
+    padding: 15px 100px;
+}
+.td1{
+    color: #43b9b9;
+}
+.td2{
+    color: #2997ff;
+
+}
+.td3{
+    color: #a972ff;
+}
+#io:hover{
+    scale: 1.5;
+}
